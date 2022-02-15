@@ -2533,13 +2533,27 @@ expo-modules-autolinking@~0.3.4:
     find-up "~5.0.0"
     fs-extra "^9.1.0"
 
-expo-modules-core@~0.4.10, expo-modules-core@~0.4.4:
+expo-modules-core@~0.4.10, expo-modules-core@~0.4.4, expo-modules-core@~0.4.7:
   version "0.4.10"
   resolved "https://registry.yarnpkg.com/expo-modules-core/-/expo-modules-core-0.4.10.tgz#6c7e7e211b3056fc23a462e9faea88cc7653fe9b"
   integrity sha512-uCZA3QzF0syRaHwYY99iaNhnye4vSQGsJ/y6IAiesXdbeVahWibX4G1KoKNPUyNsKXIM4tqA+4yByUSvJe4AAw==
   dependencies:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
+
+expo-print@~11.0.4:
+  version "11.0.4"
+  resolved "https://registry.yarnpkg.com/expo-print/-/expo-print-11.0.4.tgz#8d5096b543c130fe9d31993f1411d249db987610"
+  integrity sha512-iKFoEJavMdqNUs0mZoCp9GFC0pWEvRzi+vJS3Ufn/S3ITGMBE6FUSi7V1P7jT0leJjOD3ivreQUzWH8hiuJGvA==
+  dependencies:
+    expo-modules-core "~0.4.7"
+
+expo-sharing@~10.0.3:
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/expo-sharing/-/expo-sharing-10.0.3.tgz#21124d40f761bbde746eeab05d58d2d1f16397f9"
+  integrity sha512-ZiXmirRVznbrrc0ztfNj+IV9bzUaeMqubEJSrnl/lIBXPPQNSSvDehe7hmPf7c7tHH6q4ebR/hlExkNgjz93wA==
+  dependencies:
+    expo-modules-core "~0.4.4"
 
 expo-status-bar@~1.1.0:
   version "1.1.0"
